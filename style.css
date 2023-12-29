@@ -1,0 +1,89 @@
+div {
+  width: 1100px;
+  word-wrap: break-word;
+}
+
+img.displayed {
+  display: block;
+  margin-left: 30px;
+  margin-right: 30px; 
+}
+
+
+
+.countdown:hover {
+  cursor: pointer;
+}
+
+
+
+.time {
+  font: bold;
+  font-size: 20px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 10px;
+}
+
+button {
+	background: none;
+	border: 0px;
+	width: 60px;
+	cursor: pointer;
+}
+
+/* Heading */
+
+
+input[type="text"] {
+	margin: 0;
+	background: #fff;
+	color: #888;
+}
+
+input[type="text"]:focus {
+	color: #333;
+}
+
+
+p > button:hover {
+	color: #0035a0;
+}
+
+
+li > .delete:hover {
+	color: #CF2323;
+}
+
+
+/* Completed */
+
+#completed-tasks label {
+	text-decoration: line-through;
+	color: #888;
+}
+
+
+/* Edit Task */
+
+ul li input[type=text] {
+	display: none;
+}
+
+ul li.editMode input[type=text] {
+	display: block;
+}
+
+ul li.editMode label {
+	display: none;
+}
+
+
+footer {
+  position: bottom;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
+}
